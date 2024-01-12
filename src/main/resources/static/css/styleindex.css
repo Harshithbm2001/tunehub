@@ -1,0 +1,28 @@
+body{
+	
+  background:linear-gradient(to right,red,yellow);
+  margin:15% 15% 15% 15%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+button{
+	border-radius:10px;
+	background-color:transparent;
+	position:relative;
+	font-size:1cm;
+	letter-spacing:0.0;
+	font-weight:10;
+	padding:0.5px 1px;
+	transition:0.5s;
+}
+button:hover{
+	background-color: white;
+}
+div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height:35vh;
+}
