@@ -1,12 +1,32 @@
-
- body{
+body{
 	
   background:linear-gradient(to right,red,yellow);
-  margin:15% 15% 15% 15%;
+   margin:10% 10% 5% 10%;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url("https://cdn.pixabay.com/photo/2018/12/21/20/17/instrument-3888684_1280.png ");
+}
+input[type=submit]{
+	border-radius:10px;
+	background-color:transparent;
+	position:relative;
+	font-size:0.8cm;
+	letter-spacing:0.0;
+	font-weight:10;
+	padding:0.5px 1px;
+	transition:0.5s;
+}
+input[type=submit]:hover{
+	background-color: white;
+}
+div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height:35vh;
+		font-size:1cm;
+	
 }
 button{
 	border-radius:10px;
@@ -20,11 +40,4 @@ button{
 }
 button:hover{
 	background-color: white;
-}
-div{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	height:35vh;
 }
