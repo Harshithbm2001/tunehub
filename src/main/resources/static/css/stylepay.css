@@ -8,23 +8,29 @@ body{
   align-items: center;
   height: 50vh;
 }
-input[type=submit]{
-	border-radius:10px;
-	background-color:transparent;
-	position:relative;
-	font-size:0.8cm;
-	letter-spacing:0.0;
-	font-weight:10;
-	padding:0.5px 1px;
-	transition:0.5s;
-}
-input[type=submit]:hover{
-	background-color: white;
-}
+
 div{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	height:100vh;
+	background-color:orange;
+		font-weight:10;
+		font-size:0.8cm;
+	
+}
+button{
+	border-radius:10px;
+	background-color:white;
+	position:relative;
+	font-size:1cm;
+	letter-spacing:0.0;
+	font-weight:10;
+	padding:0.5px 1px;
+	transition:0.5s;
+}
+button:hover{
+	  background:linear-gradient(to right,blue,white);
+	
 }
