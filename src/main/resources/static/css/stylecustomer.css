@@ -28,7 +28,20 @@ div{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	height:50vh;
-		font-size:0.4cm;
+	height:60vh;
+		font-size:0.5cm;
 	
+}
+button{
+	border-radius:10px;
+	background-color:transparent;
+	position:relative;
+	font-size:0.5cm;
+	letter-spacing:0.0;
+	font-weight:10;
+	padding:0.5px 1px;
+	transition:0.5s;
+}
+button:hover{
+	background-color: white;
 }

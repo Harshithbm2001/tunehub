@@ -1,7 +1,6 @@
 body{
 	
 	background-color:orange;
-    margin:15% 15% 15% 15%;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -24,5 +23,5 @@ div{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	height:35vh;
+	height:100vh;
 }

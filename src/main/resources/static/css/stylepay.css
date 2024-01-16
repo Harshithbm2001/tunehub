@@ -1,23 +1,24 @@
-
- body{
+body{
 	
-  background:linear-gradient(to right,red,yellow);
+	background-color:orange;
+		display: flex;
+		flex-direction: column;
+	
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-image: url("https://cdn.pixabay.com/photo/2018/12/21/20/17/instrument-3888684_1280.png ");
+  height: 50vh;
 }
-button{
+input[type=submit]{
 	border-radius:10px;
 	background-color:transparent;
 	position:relative;
-	font-size:1cm;
+	font-size:0.8cm;
 	letter-spacing:0.0;
 	font-weight:10;
 	padding:0.5px 1px;
 	transition:0.5s;
 }
-button:hover{
+input[type=submit]:hover{
 	background-color: white;
 }
 div{
